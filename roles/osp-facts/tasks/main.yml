@@ -2,7 +2,7 @@
 # tasks file for osp-facts
    - name: Fetch Instance Info
      os_server_facts:
-      cloud: ospcloud
+      cloud: openstack
       region_name: RegionOne
      register: result
    - name: Add host
